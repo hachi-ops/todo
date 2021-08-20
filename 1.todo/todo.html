@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>To Do</h1>
-    <form id="todoForm">
+    <form id="todoForm" onsubmit="return false;//prevents enter key from submitting the form">
         <input id="todoInput" type="text">
         <button type="button" onclick="todoList()">Add</button>
     </form>

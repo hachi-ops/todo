@@ -12,7 +12,6 @@ function todoList() {
     })
 
 
-
     // newItem.addEventListener('dblclick', function() {
     //     newItem.remove(); // removes list item on dbl click
 
@@ -20,5 +19,6 @@ function todoList() {
 
     //     // document.getElementById("todoList").removeChild(newItem);
     // })
+
 
 }
