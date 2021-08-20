@@ -11,12 +11,9 @@ function todoList() {
         newItem.style.textDecoration = "line-through"; // crosses out item on click
     })
 
-<<<<<<< HEAD
     newItem.addEventListener('dblclick', function() {
         newItem.style.textDecoration = "none";
     }) //removes line through on dbl click
-=======
->>>>>>> 19eedbe7ff165f2e94c0db052ce0dc80cc325c35
 
 
     // newItem.addEventListener('dblclick', function() {
@@ -27,9 +24,5 @@ function todoList() {
     //     // document.getElementById("todoList").removeChild(newItem);
     // })
 
-<<<<<<< HEAD
 
 }
-=======
-}
->>>>>>> 19eedbe7ff165f2e94c0db052ce0dc80cc325c35
