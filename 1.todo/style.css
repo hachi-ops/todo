@@ -4,8 +4,9 @@ body {
     align-items: center;
     }
 
-    ol {
+    ul {
         width: 200px;
+        list-style: none;
 
     }
 
