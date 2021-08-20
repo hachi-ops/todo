@@ -11,6 +11,10 @@ function todoList() {
         newItem.style.textDecoration = "line-through"; // crosses out item on click
     })
 
+    newItem.addEventListener('dblclick', function() {
+        newItem.style.textDecoration = "none";
+    }) //removes line through on dbl click
+
 
     // newItem.addEventListener('dblclick', function() {
     //     newItem.remove(); // removes list item on dbl click
