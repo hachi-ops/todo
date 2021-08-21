@@ -10,3 +10,11 @@ body {
 
     }
 
+    ul li:hover {
+        cursor: pointer;
+    }
+
+    .image {
+
+    }
+

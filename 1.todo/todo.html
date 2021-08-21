@@ -10,11 +10,14 @@
 </head>
 <body>
     <h1>To Do</h1>
-    <form id="todoForm" onsubmit="return false;//prevents enter key from submitting the form">
+    <form id="todoForm" onsubmit="return false;"> <!--prevents enter key from submitting the form-->
         <input id="todoInput" type="text">
         <button type="button" onclick="todoList()">Add</button>
+
     </form>
-    <ul id="todoList"></ul>
+    <ul id="todoList">
+        <div class="image" id="image"></div>
+    </ul>
 
     <script src="todo.js"></script>
 </body>
